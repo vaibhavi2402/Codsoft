@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+}
+
+button{
+  border-width: 0;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+
+.navbar {
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 0;
+}
+
+.container {
+  width: 1080px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-links a:hover {
+  background-color: white;
+  color: #5b21b6;
+  font-weight: bold;
+}
+
+.signup-btn {
+  background-color: white;
+  color: black;
+  padding: 1rem 1.3rem;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: medium;
+  opacity: 0.75;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.signup-btn:hover {
+  opacity: 1;
+  cursor:pointer;
+}
+
+
+.hero {
+  background-color: #e2e8f0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 2rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.signup-btn-lg, .contact-btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.signup-btn-lg {
+  background-color: #60a5fa; 
+  color: white;
+}
+
+.signup-btn-lg:hover {
+  background-color: #3b82f6; 
+}
+
+.contact-btn {
+  background-color: #374151; 
+  color: white;
+}
+
+.contact-btn:hover {
+  background-color: #4b5563; 
+}
+
+.hero-img {
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+
+.about-contact {
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem 0;
+  background-color: #e2e8f0; 
+}
+
+.about {
+  width: 50%;
+  padding: 2rem;
+  background-color: #f3f4f6;
+  border-radius: 15px;
+}
+
+.about h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.contact-form {
+  width: 30%;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #4a5568;
+  font-size: 0.9rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s ease-in-out;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #3b82f6; 
+}
+
+.submit-btn {
+  background-color: #60a5fa;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #3b82f6;
+}

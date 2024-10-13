@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapper" class="select-none">
+        <!-- yaha se border htana hai -->
+        <nav class="relative w-full">
+            <div class="flex justify-between items-center mx-auto max-w-[1080px]">
+                <div class="font-bold font-dancingScript text-[2.4em] text-purple-400">
+                    <a href="/">Vaibhavi Pathak</a>
+                </div>
+                <ul class="flex gap-6">
+                    <li class=" text-[1.2em] font-semibold hover:cursor-pointer hover:text-purple-300 transition-all duration-300 relative group py-7">
+                        <a href="#">Home</a>
+                        <div class="absolute w-full h-1 bg-purple-300 rounded-sm bottom-0 hidden group-hover:block transition-all duration-300"></div>
+                    </li>
+                    <li class=" text-[1.2em] font-semibold hover:cursor-pointer hover:text-purple-300 transition-all duration-300 relative group py-7">
+                        <a href="#about-me">About Me</a>
+                        <div class="absolute w-full h-1 bg-purple-300 rounded-sm bottom-0 hidden group-hover:block"></div>
+                    </li>
+                    <li class=" text-[1.2em] font-semibold hover:cursor-pointer hover:text-purple-300 transition-all duration-300 relative group py-7">
+                        <a href="#projects">Projects</a>
+                        <div class="absolute w-full h-1 bg-purple-300 rounded-sm bottom-0 hidden group-hover:block"></div>
+                    </li>
+                    <li class=" text-[1.2em] font-semibold hover:cursor-pointer hover:text-purple-300 transition-all duration-300 relative group py-7">
+                        <a href="#">Skills</a>
+                        <div class="absolute w-full h-1 bg-purple-300 rounded-sm bottom-0 hidden group-hover:block"></div>
+                    </li>
+                    <li class=" text-[1.2em] font-semibold hover:cursor-pointer hover:text-purple-300 transition-all duration-300 relative group py-7">
+                        <a href="#">Contact Me</a>
+                        <div class="absolute w-full h-1 bg-purple-300 rounded-sm bottom-0 hidden group-hover:block"></div>
+                    </li>
+                </ul>
+                <button class="bg-purple-400 text-white flex items-center gap-3 py-3 px-5 rounded-3xl text-[1.2em] hover:bg-purple-700 hover:text-white transition-all duration-300 hover:cursor-pointer">
+                    Get In Touch
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                </button>
+            </div>
+        </nav>
+        <section class="relative w-full mb-[15rem]">
+            <div id="hero-section" class="relative flex mx-auto max-w-[1080px] justify-between pt-[1.8em]">
+                <div id="left-section" class="space-y-7">
+                    <h1 class="text-[4em] font-semibold">Hi!</h1>
+                    <h2 class="text-[2.5em] opacity-85 font-semibold">I'am a <span class="role">Web Developer</span></h2>
+                    <p class="text-[1.3em] opacity-75 font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, qui.</p>
+                    <button class="bg-purple-400 px-6 py-4 text-[1.2em] rounded-lg font-semibold text-white hover:bg-purple-600 transition-all duration-300 cursor-pointer flex gap-2 items-center justify-between">
+                        Hire Me
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg>
+                    </button>
+                </div>
+    
+                <div id="right-right">
+                    <img src="./images/hero-illustration.png" alt="Hero-illustration-image" draggable="false">
+                </div>
+            </div>
+        </section>
+        <section id="about-me" class="relative w-full my-[6em]">
+            <div class="relative max-w-[1080px] mx-auto flex gap-40">
+                <div id="left-part" class="relative w-[450px] bg-purple-400 flex flex-col justify-center h-[600px] rounded-lg">
+                    <img src="./images/profilePicture.png" alt="my picture" height="300px" width="300px" class="absolute rounded-full -top-[6rem] left-16" loading="lazy" draggable="false">
+                    <p class="text-white text-center relative top-12 px-20 text-[20px] font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore corporis iste officiis rem ratione mollitia illo, itaque distinctio quam. Iure?</p>
+                    <!-- SVG Icons -->
+                    <div class="flex relative top-40 w-full justify-center gap-8">
+                        <!-- instagram -->
+                        <a href="https://www.instagram.com/" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="hover:text-white hover:cursor-pointer transition-all duration-300 lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+                        </a>
+                        <!-- twitter -->
+                        <a href="https://x.com/?lang=en" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="hover:text-white hover:cursor-pointer transition-all duration-300 lucide lucide-twitter"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+                        </a>
+                        <!-- github -->
+                        <a href="https://github.com/vaibhavi2402" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="hover:text-white hover:cursor-pointer transition-all duration-300 lucide lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                        </a>
+                        <!-- linkedin -->
+                        <a href="https://linkedin.com/in/vaibhavi-pathak-b68223164" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="hover:text-white hover:cursor-pointer transition-all duration-300 lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+                        </a>
+                    </div>
+                </div>
+    
+                <div id="right-part" class="max-w-[500px] bg-slate-100 rounded-lg">
+                    <h2 class="text-[2.5em] flex justify-center pt-10 font-semibold font-dancingScript">About Me</h2>
+                    <p class="relative text-center text-[1.2em] opacity-85 font-semibold top-8 mx-[1.2em]">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ipsum autem laudantium aut tempora dicta fuga quis? Aperiam, alias placeat. Minus hic magnam a necessitatibus iusto! Vero ducimus corporis perferendis veniam aut optio possimus perspiciatis, molestiae nulla unde quidem blanditiis illo vel voluptates tenetur eligendi dolor minima omnis beatae libero atque sed! Quam facere cupiditate eius sapiente velit, voluptatem commodi est. In illum eius eligendi quos necessitatibus? Accusamus temporibus ducimus ab dolorum natus debitis laudantium, quo sint perspiciatis quia possimus quod vel officiis nam mollitia sit. Ea aperiam facilis nostrum alias? Obcaecati illum voluptas unde dolor distinctio libero ab fugiat?
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="py-12 bg-purple-50">
+            <div>
+                <h2 class="text-[3em] font-dancingScript font-semibold flex justify-center">Projects</h2>
+            </div>
+            <!-- Projects -->
+            <div class="w-[1080px] flex mx-auto my-[3em] flex-wrap justify-around space-y-12">
+                <div class="w-[450px] h-[484px] bg-red-200 flex justify-center items-center rounded-2xl">
+                    <div class="flex flex-col items-center justify-center rounded-2xl bg-white w-[400px] p-[1.3em] gap-5 m-[1.3em] hover:cursor-pointer hover:scale-[1.020] transition-all duration-300">
+                        <img src="./images/passwordGeneratorProject.jpg" alt="" height="200px" width="200px" loading="lazy" draggable="false">
+                        <h3 class="font-semibold text-[1.4em]">Password Generator</h3>
+                        <p class="text-[1.1em] text-center"><span>Password Generator</span> built using HTML, CSS & JavaScript which is a web-based tool designed to create secure,  random passwords for users.</p>
+                    </div>
+                </div>
+                <div class="w-[450px] h-[484px] bg-red-200 flex justify-center items-center rounded-2xl">
+                    <div class="flex flex-col items-center justify-center rounded-2xl bg-white w-[400px] p-[1.3em] gap-5 m-[1.3em] hover:cursor-pointer hover:scale-[1.020] transition-all duration-300 py-9">
+                        <img src="./images/weatherAppProject.jpg" alt="" height="200px" width="200px" loading="lazy" draggable="false">
+                        <h3 class="font-semibold text-[1.4em]">Weather App</h3>
+                        <p class="text-[1.1em] text-center">A <span>Weather App</span> bullt using HTML, CSS, JavaScript & OpenWeather API for real-time weather data.</p>
+                    </div>
+                </div>
+                <div class="w-[450px] h-[484px] bg-red-200 flex justify-center items-center rounded-2xl">
+                    <div class="flex flex-col items-center justify-center rounded-2xl bg-white w-[400px] p-[1.3em] gap-5 m-[1.3em] hover:cursor-pointer hover:scale-[1.020] transition-all duration-300">
+                        <img src="./images/githubProfileTrackerProject.png" alt="" height="200px" width="200px" loading="lazy" draggable="false">
+                        <h3 class="font-semibold text-[1.4em]">Github Projile Tracker</h3>
+                        <p class="text-[1.1em] text-center">The <span>Github Projile Tracker</span> which is a web-based application  built using HTML, CSS & JavaScript, designed to locate and display GitHub user profiles.</p>
+                    </div>
+                </div>
+                <div class="w-[450px] h-[484px] bg-red-200 flex justify-center items-center rounded-2xl">
+                    <div class="py-14 flex flex-col items-center justify-center rounded-2xl bg-white w-[400px] p-[1.3em] gap-5 m-[1.3em] hover:cursor-pointer hover:scale-[1.020] transition-all duration-300">
+                        <img src="./images/edtechproject.jpg" alt="" height="200px" width="200px" loading="lazy" draggable="false">
+                        <h3 class="font-semibold text-[1.4em]">Ed Tech Platform</h3>
+                        <p class="text-[1.1em] text-center">An <span>Ed Tech Platform</span> built using HTML, CSS, JavaScript, React.js, Express.js & MongoDB which is an online educational tool designed to facilitate learning and course management</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="my-[4em]">
+            <div>
+                <h2 class="text-[3em] font-dancingScript font-semibold flex justify-center gap-8">Skills</h2>
+            </div>
+            <div class="flex flex-wrap w-[1080px] justify-center items-center mx-auto space-x-6 my-[1.4em]">
+                <div class="hover: cursor-pointer hover:scale-[1.050] transition-all duration-150"><img src="./images/logos/C_Logo.png" alt="" draggable="false" height="150px" width="150px" loading="lazy"></div>
+                <div class="hover: cursor-pointer hover:scale-[1.050] transition-all duration-150"><img src="./images/logos/C++-Logo.wine.png" alt="" draggable="false" height="150px" width="150px" loading="lazy"></div>
+                <div class="hover: cursor-pointer hover:scale-[1.050] transition-all duration-150"><img src="./images/logos/Python-logo.png" alt="" draggable="false" height="150px" width="150px" loading="lazy"></div>
+                <div class="hover: cursor-pointer hover:scale-[1.050] transition-all duration-150"><img src="./images/logos/HTML5_logo_and_wordmark.svg.png" alt="" draggable="false" height="150px" width="150px" loading="lazy"></div>
+                <div class="hover: cursor-pointer hover:scale-[1.050] transition-all duration-150"><img src="./images/logos/CSS-Logo.png" alt="" draggable="false" height="150px" width="150px" loading="lazy"></div>
+                <div class="hover: cursor-pointer hover:scale-[1.050] transition-all duration-150"><img src="./images/logos/Bootstrap_logo.svg.png" alt="" draggable="false" height="150px" width="150px" loading="lazy"></div>
+                <div class="hover: cursor-pointer hover:scale-[1.050] transition-all duration-150"><img src="./images/logos/tailwindLogo-removebg-preview.png" alt="" draggable="false" height="150px" width="150px" loading="lazy"></div>
+                <div class="hover: cursor-pointer hover:scale-[1.050] transition-all duration-150"><img src="./images/logos/JavaScript-logo.png" alt="" draggable="false" height="150px" width="150px" loading="lazy"></div>
+                <div class="hover: cursor-pointer hover:scale-[1.050] transition-all duration-150"><img src="./images/logos/download.png" alt="" draggable="false" height="150px" width="150px" loading="lazy"></div>
+                <div class="hover: cursor-pointer hover:scale-[1.050] transition-all duration-150"><img src="./images/logos/node-js-icon-454x512-nztofx17.png" alt="" draggable="false" height="150px" width="150px" loading="lazy"></div>
+                <div class="hover: cursor-pointer hover:scale-[1.050] transition-all duration-150"><img src="./images/logos/express-js.png" alt="" draggable="false" height="150px" width="150px" loading="lazy"></div>
+                <div class="hover: cursor-pointer hover:scale-[1.050] transition-all duration-150"><img src="./images/logos/next-js-logo-7929BCD36F-seeklogo.com.png" alt="" draggable="false" height="150px" width="150px" loading="lazy"></div>
+                <div class="hover: cursor-pointer hover:scale-[1.050] transition-all duration-150"><img src="./images/logos/Java-Logo.png" alt="" draggable="false" height="150px" width="150px" loading="lazy"></div>
+                <div class="hover: cursor-pointer hover:scale-[1.050] transition-all duration-150"><img src="./images/logos/MongoDB-Logo.png" alt="" draggable="false" height="150px" width="150px" loading="lazy"></div>
+                <div class="hover: cursor-pointer hover:scale-[1.050] transition-all duration-150"><img src="./images/logos/images-removebg-preview.png" alt="" draggable="false" height="150px" width="150px" loading="lazy"></div>
+                <div class="hover: cursor-pointer hover:scale-[1.050] transition-all duration-150"><img src="./images/logos/google-cloud-icon.png" alt="" draggable="false" height="150px" width="150px"></div>
+                <div class="hover: cursor-pointer hover:scale-[1.050] transition-all duration-150"><img src="./images/logos/Google-BigQuery-removebg-preview.png" alt="" draggable="false" height="150px" width="150px" loading="lazy"></div>
+            </div>
+        </section>
+
+        <section id="contactMe" class="py-[6em] bg-purple-50">
+            <h2 class="text-[3em] font-dancingScript font-semibold flex justify-center mb-[1.3em]">Contact Me</h2>
+            <form class="max-w-md mx-auto">
+                <div class="flex-col gap-[9em]">
+                    <div class="relative z-0 w-full my-5 group">
+                        <input type="email" name="floating_email" id="floating_email" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-purple-500 focus:outline-none focus:ring-0 focus:border-purple-600 peer" placeholder=" " required />
+                        <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-purple-600 peer-focus:dark:text-purple-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email address</label>
+                    </div>
+                    <div class="relative z-0 w-full mb-5 group">
+                        <input type="password" name="floating_password" id="floating_password" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-purple-500 focus:outline-none focus:ring-0 focus:border-purple-600 peer" placeholder=" " required />
+                        <label for="floating_password" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-purple-600 peer-focus:dark:text-purple-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Password</label>
+                    </div>
+                    <div class="relative z-0 w-full mb-5 group">
+                        <input type="password" name="repeat_password" id="floating_repeat_password" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-purple-500 focus:outline-none focus:ring-0 focus:border-purple-600 peer" placeholder=" " required />
+                        <label for="floating_repeat_password" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-purple-600 peer-focus:dark:text-purple-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Confirm password</label>
+                    </div>
+                    <div class="grid md:grid-cols-2 md:gap-6">
+                        <div class="relative z-0 w-full mb-5 group">
+                            <input type="text" name="floating_first_name" id="floating_first_name" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-purple-500 focus:outline-none focus:ring-0 focus:border-purple-600 peer" placeholder=" " required />
+                            <label for="floating_first_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:purple-blue-600 peer-focus:dark:text-purple-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">First name</label>
+                        </div>
+                        <div class="relative z-0 w-full mb-5 group">
+                            <input type="text" name="floating_last_name" id="floating_last_name" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-purple-500 focus:outline-none focus:ring-0 focus:border-purple-600 peer" placeholder=" " required />
+                            <label for="floating_last_name" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 peer-focus:text-purple-600 peer-focus:dark:text-purple-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Last name</label>
+                        </div>
+                    </div>
+                    <button type="submit" class="text-white text-[1.3em] bg-purple-400 hover:bg-purple-700 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg w-full sm:w-auto px-6 py-[0.7rem] text-center dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-800 transition-all duration-300">Submit</button>
+                </div>
+            </form>
+
+        </section>
+    </div> 
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+    var typeData = new Typed(".role", {
+        strings: [
+        "Full Stack Developer",
+        "Web Developer",
+        "UI-UX Designer",
+        "Backend Developer",
+        "Coder",
+        ],
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 80,
+        backDelay: 1000,
+    });
+    </script>
+
+</body>
+</html>
